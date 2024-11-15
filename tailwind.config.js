@@ -4,7 +4,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        raleway: ['Raleway', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
         generalsans: ['General Sans', 'sans-serif'],
+      
       },
       colors: {
         black: {
@@ -22,6 +25,13 @@ export default {
           600: '#AFB0B6',
           500: '#62646C',
         },
+        softPink: '#FFC0CB',
+        lavender: '#E6E6FA',
+        mintGreen: '#98FF98',
+        peach: '#FFDAB9',
+        lightCoral: '#F08080',
+        ivory: '#FFFFF0',
+        silver: '#C0C0C0',
       },
       backgroundImage: {
         terminal: "url('/assets/terminal.png')",

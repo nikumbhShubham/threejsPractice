@@ -12,7 +12,14 @@ body {
   background: #191919;
   font-family: 'General Sans', sans-serif;
 }
-
+@keyframes slide {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: calc(1px * sqrt(2 * pow(80, 2)));
+}
+}
 @layer utilities {
   .c-space {
     @apply sm:px-10 px-5;
